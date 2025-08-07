@@ -1,0 +1,59 @@
+.hero-wrapper {
+
+    padding: 28.5px 24px 52.5px;
+
+    @media #{$lg-layout} {
+        padding: vw(28.5px, $base-lg-vw) vw(24px, $base-lg-vw) vw(52.5px, $base-lg-vw);
+    }
+
+    @media #{$sm-layout} {
+        padding: vw(70px, $base-sm-vw) vw(24px, $base-sm-vw) vw(61px, $base-sm-vw);
+    }
+
+    .logo-wrapper {
+        margin-bottom: 48.5px;
+
+        @media #{$lg-layout} {
+            margin-bottom: vw(48.5px, $base-lg-vw);
+        }
+
+        @media #{$sm-layout} {
+            margin-bottom: vw(60px, $base-sm-vw);
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+
+            filter: invert(1);
+        }
+    }
+
+    .heading-wrapper {
+        h1 {
+            color: #000;
+
+            text-align: center;
+
+            font-family: var(--font-helvetica-neue-roman);
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 102%;
+            /* 24.48px */
+            letter-spacing: -0.96px;
+            text-transform: uppercase;
+
+            @media #{$lg-layout} {
+                font-size: vw(24px, $base-lg-vw);
+                letter-spacing: vw(-0.96px, $base-lg-vw);
+            }
+
+            @media #{$sm-layout} {
+                font-size: vw(18px, $base-sm-vw);
+                letter-spacing: vw(-0.72px, $base-sm-vw);
+            }
+        }
+    }
+
+}

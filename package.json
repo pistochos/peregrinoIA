@@ -1,0 +1,30 @@
+{
+  "name": "peregrino",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@lottiefiles/react-lottie-player": "^3.5.4",
+    "embla-carousel-class-names": "^8.3.0",
+    "embla-carousel-react": "^8.3.0",
+    "gsap": "^3.12.5",
+    "lenis": "^1.1.14",
+    "next": "14.2.13",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-gsap": "^3.2.1",
+    "react-scrollmagic": "^2.3.0",
+    "sass": "^1.79.4",
+    "scrollmagic": "^2.0.8",
+    "scrollmagic-plugin-gsap": "^1.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.13"
+  }
+}
