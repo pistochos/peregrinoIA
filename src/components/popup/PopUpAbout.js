@@ -1,10 +1,14 @@
 import Image from "next/image";
+import dynamic from "next/dynamic";
 
 import closeIcon from "@/assets/img/icons/close.svg"
 
 import { useEffect, useRef } from "react";
 
-import { Player } from "@lottiefiles/react-lottie-player";
+const Player = dynamic(
+    () => import("@lottiefiles/react-lottie-player").then((mod) => mod.Player),
+    { ssr: false }
+);
 
 const PopUpAbout = ({ title, content, img, lottie, elementsList, bigPointer, index }) => {
 
