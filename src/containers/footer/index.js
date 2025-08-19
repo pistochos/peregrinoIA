@@ -1,8 +1,6 @@
 import Image from "next/image";
 
 import logo from "@/assets/img/hero/hero-logo.svg"
-
-import superficial from "@/assets/img/footer/made_by_superficial.svg"
 import Link from "next/link";
 
 const Footer = () => {
