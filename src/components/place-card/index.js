@@ -194,55 +194,36 @@ const PlaceCard = ({ img, title, videoIframe, carrusel, carruselDes }) => {
                                     const hasMobileVersion = !!item.imgMob;
 
                                     if (isMainImage) return null;
+
+                                    // Simplified logic: during SSR and initial client render, show desktop version
+                                    // Only filter mobile items after client hydration
                                     if (isClient && isMobile && !hasMobileVersion) return null;
 
                                     return (
                                         <div className={`embla__slide ${item.slideSize}-slide`} key={index}>
-                                            {
-                                                !isClient ? (
-                                                    // During SSR, always render desktop version
-                                                    <Image
-                                                        src={item.img}
-                                                        width={2000}
-                                                        height={1040}
-                                                        sizes="(max-width: 767px) 50vw, (min-width: 768px) 50vw"
-                                                        className={`desktop-img ${hasMobileVersion ? 'has-mobile-version' : 'not-main'}`}
-                                                        alt={`${carruselDes} ${index}`}
-                                                    />
-                                                ) : (
-                                                    <>
-                                                        {
-                                                            isMobile ?
-                                                                <></>
-                                                                :
-                                                                <Image
-                                                                    src={item.img}
-                                                                    width={2000}
-                                                                    height={1040}
-                                                                    sizes="(max-width: 767px) 50vw, (min-width: 768px) 50vw"
-                                                                    className={`desktop-img ${hasMobileVersion ? 'has-mobile-version' : 'not-main'}`}
-                                                                    alt={`${carruselDes} ${index}`}
-                                                                />
-                                                        }
+                                            {/* Desktop Image - always present during SSR and when not mobile */}
+                                            {(!isClient || !isMobile) && (
+                                                <Image
+                                                    src={item.img}
+                                                    width={2000}
+                                                    height={1040}
+                                                    sizes="(max-width: 767px) 50vw, (min-width: 768px) 50vw"
+                                                    className={`desktop-img ${hasMobileVersion ? 'has-mobile-version' : 'not-main'}`}
+                                                    alt={`${carruselDes} ${index}`}
+                                                />
+                                            )}
 
-                                                        {
-                                                            isMobile ?
-                                                                hasMobileVersion && (
-                                                                    <Image
-                                                                        src={item.imgMob}
-                                                                        width={2000}
-                                                                        height={1040}
-                                                                        sizes="(max-width: 767px) 50vw, (min-width: 768px) 50vw"
-                                                                        className="mobile-img"
-                                                                        alt={`${carruselDes} ${index}`}
-                                                                    />
-                                                                )
-                                                                :
-                                                                <></>
-                                                        }
-                                                    </>
-                                                )
-                                            }
+                                            {/* Mobile Image - only when client-side and mobile and has mobile version */}
+                                            {isClient && isMobile && hasMobileVersion && (
+                                                <Image
+                                                    src={item.imgMob}
+                                                    width={2000}
+                                                    height={1040}
+                                                    sizes="(max-width: 767px) 50vw, (min-width: 768px) 50vw"
+                                                    className="mobile-img"
+                                                    alt={`${carruselDes} ${index}`}
+                                                />
+                                            )}
                                         </div>
                                     );
                                 })}
