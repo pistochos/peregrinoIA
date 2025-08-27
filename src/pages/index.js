@@ -47,6 +47,9 @@ export default function Home() {
   })
 
   useEffect(() => {
+    // Only run GSAP animations on client side
+    if (typeof window === 'undefined') return;
+
     let ctx = gsap.context(() => {
 
       let mm = gsap.matchMedia();
