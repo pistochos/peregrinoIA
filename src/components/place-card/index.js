@@ -125,12 +125,14 @@ const PlaceCard = ({ img, title, videoIframe, carrusel, carruselDes }) => {
             <div className="place-card-trigger">
                 <div className="place-card-wrapper">
                     <button className="card-img-wrapper parallax-wrapper" ref={trigger}>
-                        <Image 
-                            src={img} 
-                            sizes="(max-width: 767px) 50vw, (min-width: 768px) 50vw" 
-                            className="parallax desktop-img main-image" 
-                            alt={title} 
-                            placeholder='blur' 
+                        <Image
+                            src={img}
+                            width={2000}
+                            height={1040}
+                            sizes="(max-width: 767px) 50vw, (min-width: 768px) 50vw"
+                            className="parallax desktop-img main-image"
+                            alt={title}
+                            placeholder='blur'
                         />
 
                         <div className="cursor no-click">
