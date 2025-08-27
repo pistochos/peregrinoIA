@@ -327,10 +327,10 @@ const About = () => {
         },
 
         {
-            name: "<span className='videoSpace'>ARROYO</span> <br /> $1'840'000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_ <br /> 44M2_ONE BEDROOM_ONE FULL BATHROOM_LIVING ROOM_KITCHENETTE_ <br/> TERRACE_",
+            name: "<span className='videoSpace'>ARROYO</span> <br /> $1'840'000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_ <br /> 44M2_ONE BEDROOM_ONE FULL BATHROOM_LIVING ROOM_KITCHENETTE_ <br /> TERRACE_",
             image: arroyo,
             videoIframe: "",
-            carruselDes: "<span className='videoSpace'>ARROYO</span> <br /> $1'840'000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_ <br /> 44M2_ONE BEDROOM_ONE FULL BATHROOM_LIVING ROOM_KITCHENETTE_ <br/> TERRACE_",
+            carruselDes: "<span className='videoSpace'>ARROYO</span> <br /> $1'840'000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_ <br /> 44M2_ONE BEDROOM_ONE FULL BATHROOM_LIVING ROOM_KITCHENETTE_ <br /> TERRACE_",
             carrusel: [
                 { img: arroyo, slideSize: "large" },
                 { img: arroyo2, imgMob: arroyo2Mob, slideSize: "small" },
@@ -423,7 +423,7 @@ const About = () => {
         {
             name: "Viabilidad DE PROYECTO: <br> Inversión Segura",
             preview: about6,
-            content: "Análisis de viabilidad económica",
+            content: "An��lisis de viabilidad económica",
             lottie: animation6,
             img: about6,
             elementsList: [
