@@ -72,6 +72,9 @@ const PlaceCard = ({ img, title, videoIframe, carrusel, carruselDes }) => {
     }, [videoIframe])
 
     useEffect(() => {
+        // Only run DOM manipulation on client side
+        if (typeof window === 'undefined') return;
+
         const cards = document.querySelectorAll(".place-card-wrapper .card-img-wrapper");
         const cursors = document.querySelectorAll(".place-card-wrapper .card-img-wrapper .cursor-move");
 
