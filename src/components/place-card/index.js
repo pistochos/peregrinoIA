@@ -132,7 +132,6 @@ const PlaceCard = ({ img, title, videoIframe, carrusel, carruselDes }) => {
                             sizes="(max-width: 767px) 50vw, (min-width: 768px) 50vw"
                             className="parallax desktop-img main-image"
                             alt={title}
-                            placeholder='blur'
                         />
 
                         <div className="cursor no-click">
@@ -207,7 +206,6 @@ const PlaceCard = ({ img, title, videoIframe, carrusel, carruselDes }) => {
                                                         height={1040}
                                                         sizes="(max-width: 767px) 50vw, (min-width: 768px) 50vw"
                                                         className={`desktop-img ${hasMobileVersion ? 'has-mobile-version' : 'not-main'}`}
-                                                        placeholder='blur'
                                                         alt={`${carruselDes} ${index}`}
                                                     />
                                             }
@@ -223,7 +221,6 @@ const PlaceCard = ({ img, title, videoIframe, carrusel, carruselDes }) => {
                                                             height={1040}
                                                             sizes="(max-width: 767px) 50vw, (min-width: 768px) 50vw"
                                                             className="mobile-img"
-                                                            placeholder='blur'
                                                             alt={`${carruselDes} ${index}`}
                                                         />
                                                     )
