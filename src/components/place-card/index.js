@@ -125,12 +125,13 @@ const PlaceCard = ({ img, title, videoIframe, carrusel, carruselDes }) => {
             <div className="place-card-trigger">
                 <div className="place-card-wrapper">
                     <button className="card-img-wrapper parallax-wrapper" ref={trigger}>
-                        <Image 
-                            src={img} 
-                            sizes="(max-width: 767px) 50vw, (min-width: 768px) 50vw" 
-                            className="parallax desktop-img main-image" 
-                            alt={title} 
-                            placeholder='blur' 
+                        <Image
+                            src={img}
+                            width={2000}
+                            height={1040}
+                            sizes="(max-width: 767px) 50vw, (min-width: 768px) 50vw"
+                            className="parallax desktop-img main-image"
+                            alt={title}
                         />
 
                         <div className="cursor no-click">
@@ -201,9 +202,10 @@ const PlaceCard = ({ img, title, videoIframe, carrusel, carruselDes }) => {
                                                     :
                                                     <Image
                                                         src={item.img}
+                                                        width={2000}
+                                                        height={1040}
                                                         sizes="(max-width: 767px) 50vw, (min-width: 768px) 50vw"
                                                         className={`desktop-img ${hasMobileVersion ? 'has-mobile-version' : 'not-main'}`}
-                                                        placeholder='blur'
                                                         alt={`${carruselDes} ${index}`}
                                                     />
                                             }
@@ -215,9 +217,10 @@ const PlaceCard = ({ img, title, videoIframe, carrusel, carruselDes }) => {
                                                     hasMobileVersion && (
                                                         <Image
                                                             src={item.imgMob}
+                                                            width={2000}
+                                                            height={1040}
                                                             sizes="(max-width: 767px) 50vw, (min-width: 768px) 50vw"
                                                             className="mobile-img"
-                                                            placeholder='blur'
                                                             alt={`${carruselDes} ${index}`}
                                                         />
                                                     )

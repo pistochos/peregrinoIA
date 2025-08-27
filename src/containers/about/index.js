@@ -202,10 +202,10 @@ const About = () => {
 
     const places = [
         {
-            name: "<span className='videoSpace'>O Frame</span> </br> $1’200’000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_ </br> 17M2_ONE BEDROOM_ONE FULL BATHROOM_LIVING ROOM_KITCHENETTE_DAY BED_",
+            name: "<span className='videoSpace'>O Frame</span> </br> $1’200’000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_ </br> 17m2 // ONE BEDROOM // ONE FULL BATHROOM // LIVING ROOM // KITCHEN // ETTE DAY BED",
             image: oframe,
             videoIframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/_BATAV4wqNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> ',
-            carruselDes: "<span className='videoSpace'>O Frame</span> </br> $1’200’000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_ </br> 17M2_ONE BEDROOM_ONE FULL BATHROOM_LIVING ROOM_KITCHENETTE_DAY BED_",
+            carruselDes: "<span className='videoSpace'>O Frame</span> </br> $1’200’000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_ </br> 17m2 // ONE BEDROOM // ONE FULL BATHROOM // LIVING ROOM // KITCHEN // ETTE DAY BED",
             carrusel: [
                 { img: oframe, slideSize: "large" },
                 { img: oframe2, imgMob: oframe2Mob, slideSize: "small" },
@@ -221,7 +221,7 @@ const About = () => {
 
         {
             name: "<span className='videoSpace'>C FRAME</span><br />$1’217’000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_<br />20 M2_ONE BEDROOM_ONE FULL BATHROOM_LIVING ROOM_KITCHENETTE_INDOOR/OUTDOOR SHOWER_",
-            image: cframe,
+            image: "https://cdn.builder.io/api/v1/image/assets%2F5e97045c58594b208962039caa6225f5%2F5d13ee5ced73423c8605e6ce1e640347",
             videoIframe: "", // No video info
             carruselDes: "<span className='videoSpace'>C FRAME</span><br />$1’217’000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_<br />20 M2_ONE BEDROOM_ONE FULL BATHROOM_LIVING ROOM_KITCHENETTE_INDOOR/OUTDOOR SHOWER_",
             carrusel: [
@@ -372,7 +372,7 @@ const About = () => {
             ]
         },
         {
-            name: "PREFABRICACIÓN: <br> EFICIENCIA INTEGRAL",
+            name: "PREFABRICACI��N: <br> EFICIENCIA INTEGRAL",
             preview: about3,
             content: "Plug and play",
             lottie: animation4,

@@ -1,8 +1,6 @@
 import Image from "next/image";
 
 import logo from "@/assets/img/hero/hero-logo.svg"
-
-import superficial from "@/assets/img/footer/made_by_superficial.svg"
 import Link from "next/link";
 
 const Footer = () => {
@@ -39,11 +37,6 @@ const Footer = () => {
 
             <div className="logo-wrapper">
                 <Image src={logo} alt="Peregrino" />
-
-                <a href={"https://www.superficial.design/"} target="_blank" rel="noopener noreferrer">
-                    <Image src={superficial} alt="Made by Superficial" className="superficial" />
-
-                </a>
             </div>
         </footer>
 
