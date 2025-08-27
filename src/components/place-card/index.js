@@ -240,7 +240,7 @@ const PlaceCard = ({ img, title, videoIframe, carrusel, carruselDes }) => {
                         </div>
 
                         <div className="carousel-info">
-                            <p className="carousel-description" dangerouslySetInnerHTML={{ __html: carruselDes }}></p>
+                            <div className="carousel-description" dangerouslySetInnerHTML={{ __html: carruselDes }}></div>
                             <div className="carousel-controls">
                                 <button className="embla__prev control-prev" onClick={scrollPrev}>
                                     <Image src={prevIcon} alt="prev icon" />
