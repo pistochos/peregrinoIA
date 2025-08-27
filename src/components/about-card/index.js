@@ -9,7 +9,10 @@ const AboutCard = ({ preview, title, shortContent, index }) => {
     const trigger = useRef(null)
 
     useEffect(() => {
-        trigger.current.addEventListener('click', () => {
+        // Only run DOM manipulation on client side
+        if (typeof window === 'undefined') return;
+
+        trigger.current?.addEventListener('click', () => {
             const popId = `about-popup-${index}`
             const popup = document.querySelector(`#${popId}`)
             popup.classList.add("active")
