@@ -191,17 +191,13 @@ const PlaceCard = ({ img, title, videoIframe, carrusel, carruselDes }) => {
                                     const hasMobileVersion = !!item.imgMob;
 
                                     if (isMainImage) return null;
-                                    if (isMobile && !hasMobileVersion) return null;
+                                    if (isClient && isMobile && !hasMobileVersion) return null;
 
                                     return (
                                         <div className={`embla__slide ${item.slideSize}-slide`} key={index}>
-                                         
-
-
                                             {
-                                                isMobile ?
-                                                    <></>
-                                                    :
+                                                !isClient ? (
+                                                    // During SSR, always render desktop version
                                                     <Image
                                                         src={item.img}
                                                         width={2000}
@@ -210,24 +206,39 @@ const PlaceCard = ({ img, title, videoIframe, carrusel, carruselDes }) => {
                                                         className={`desktop-img ${hasMobileVersion ? 'has-mobile-version' : 'not-main'}`}
                                                         alt={`${carruselDes} ${index}`}
                                                     />
-                                            }
+                                                ) : (
+                                                    <>
+                                                        {
+                                                            isMobile ?
+                                                                <></>
+                                                                :
+                                                                <Image
+                                                                    src={item.img}
+                                                                    width={2000}
+                                                                    height={1040}
+                                                                    sizes="(max-width: 767px) 50vw, (min-width: 768px) 50vw"
+                                                                    className={`desktop-img ${hasMobileVersion ? 'has-mobile-version' : 'not-main'}`}
+                                                                    alt={`${carruselDes} ${index}`}
+                                                                />
+                                                        }
 
-
-
-                                            {
-                                                isMobile ?
-                                                    hasMobileVersion && (
-                                                        <Image
-                                                            src={item.imgMob}
-                                                            width={2000}
-                                                            height={1040}
-                                                            sizes="(max-width: 767px) 50vw, (min-width: 768px) 50vw"
-                                                            className="mobile-img"
-                                                            alt={`${carruselDes} ${index}`}
-                                                        />
-                                                    )
-                                                    :
-                                                    <></>
+                                                        {
+                                                            isMobile ?
+                                                                hasMobileVersion && (
+                                                                    <Image
+                                                                        src={item.imgMob}
+                                                                        width={2000}
+                                                                        height={1040}
+                                                                        sizes="(max-width: 767px) 50vw, (min-width: 768px) 50vw"
+                                                                        className="mobile-img"
+                                                                        alt={`${carruselDes} ${index}`}
+                                                                    />
+                                                                )
+                                                                :
+                                                                <></>
+                                                        }
+                                                    </>
+                                                )
                                             }
                                         </div>
                                     );
