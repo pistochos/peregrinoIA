@@ -205,7 +205,7 @@ const About = () => {
             name: "<span className='videoSpace'>O Frame</span><br /><p>17m2 // ONE BEDROOM // ONE FULL BATHROOM // LIVING ROOM // KITCHENETTE // DAY BED</p>",
             image: oframe,
             videoIframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/_BATAV4wqNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> ',
-            carruselDes: "<span className='videoSpace'>O Frame</span> </br> $1'200'000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_ </br> 17m2 // ONE BEDROOM // ONE FULL BATHROOM // LIVING ROOM // KITCHEN // ETTE DAY BED",
+            carruselDes: "<span className='videoSpace'>O Frame</span><br /><p>17m2 // ONE BEDROOM // ONE FULL BATHROOM // LIVING ROOM // KITCHENETTE // DAY BED</p>",
             carrusel: [
                 { img: oframe, slideSize: "large" },
                 { img: oframe2, imgMob: oframe2Mob, slideSize: "small" },
