@@ -50,6 +50,9 @@ const PlaceCard = ({ img, title, videoIframe, carrusel, carruselDes }) => {
     }, []);
 
     useEffect(() => {
+        // Only run DOM manipulation on client side
+        if (typeof window === 'undefined') return;
+
         trigger.current?.addEventListener('click', () => {
             popup.current.classList.add("active")
         })
@@ -60,6 +63,9 @@ const PlaceCard = ({ img, title, videoIframe, carrusel, carruselDes }) => {
     }, [])
 
     useEffect(() => {
+        // Only run DOM manipulation on client side
+        if (typeof window === 'undefined') return;
+
         if (videoIframe) {
             triggerVideo.current?.addEventListener('click', () => {
                 popupVideo.current.classList.add("active")
