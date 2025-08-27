@@ -223,7 +223,7 @@ const About = () => {
             name: "<span className='videoSpace'>C FRAME</span><br />$1’217’000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_<br />20 M2_ONE BEDROOM_ONE FULL BATHROOM_LIVING ROOM_KITCHENETTE_INDOOR/OUTDOOR SHOWER_",
             image: cframe,
             videoIframe: "", // No video info
-            carruselDes: "<span className='videoSpace'>C FRAME</span><br />$1’217’000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_<br />20 M2_ONE BEDROOM_ONE FULL BATHROOM_LIVING ROOM_KITCHENETTE_INDOOR/OUTDOOR SHOWER_",
+            carruselDes: "<span className='videoSpace'>C FRAME</span><br />$1,217,000 MXN TEXTILES_MINIBAR_AND_FREIGHT_<br />20 M2_ONE BEDROOM_ONE FULL BATHROOM_LIVING ROOM_KITCHENETTE_INDOOR/OUTDOOR SHOWER_",
             carrusel: [
                 { img: cframe, slideSize: "large" },
                 { img: cframe1, slideSize: "large" },
