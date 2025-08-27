@@ -236,10 +236,10 @@ const About = () => {
 
 
         {
-            name: "<span className='videoSpace'>P FRAME</span> </br> $1'400'000 MXN_INSTALLED_PLUS TEXTILES_AND_FREIGHT_ </br> 40M2_ONE BEDROOM_ONE FULL BATHROOM_HOT TUB_TERRACE_ </br> FIREPIT_CHIMNEY_ ",
+            name: "<span className='videoSpace'>P FRAME</span> <br /> $1'400'000 MXN_INSTALLED_PLUS TEXTILES_AND_FREIGHT_ <br /> 40M2_ONE BEDROOM_ONE FULL BATHROOM_HOT TUB_TERRACE_ <br /> FIREPIT_CHIMNEY_ ",
             image: pframe,
             videoIframe: "",
-            carruselDes: "<span className='videoSpace'>P FRAME</span> </br> $1'400'000 MXN_INSTALLED_PLUS TEXTILES_AND_FREIGHT_ </br> 40M2_ONE BEDROOM_ONE FULL BATHROOM_HOT TUB_TERRACE_ </br> FIREPIT_CHIMNEY_ ",
+            carruselDes: "<span className='videoSpace'>P FRAME</span> <br /> $1'400'000 MXN_INSTALLED_PLUS TEXTILES_AND_FREIGHT_ <br /> 40M2_ONE BEDROOM_ONE FULL BATHROOM_HOT TUB_TERRACE_ <br /> FIREPIT_CHIMNEY_ ",
             carrusel: [
                 { img: pframe, slideSize: "large" },
                 { img: pframe2, imgMob: pframe2Mob, slideSize: "large" },
@@ -248,10 +248,10 @@ const About = () => {
         },
 
         {
-            name: "<span className='videoSpace'>SAUNA</span> </br> $275'000 MXN_INSTALLED_PLUS FREIGHT_ </br> 9M2_5 PAX_ ",
+            name: "<span className='videoSpace'>SAUNA</span> <br /> $275'000 MXN_INSTALLED_PLUS FREIGHT_ <br /> 9M2_5 PAX_ ",
             image: sauna,
             videoIframe: "",
-            carruselDes: "<span className='videoSpace'>SAUNA</span> </br> $275'000 MXN_INSTALLED_PLUS FREIGHT_ </br> 9M2_5 PAX_ ",
+            carruselDes: "<span className='videoSpace'>SAUNA</span> <br /> $275'000 MXN_INSTALLED_PLUS FREIGHT_ <br /> 9M2_5 PAX_ ",
             carrusel: [
                 { img: sauna, slideSize: "large" },
                 { img: sauna2, imgMob: sauna2Mob, slideSize: "small" },
@@ -263,10 +263,10 @@ const About = () => {
         },
 
         {
-            name: "<span className='videoSpace'>BCS</span> </br> $839'000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_ </br> 25M2_ONE BEDROOM_ONE FULL BATHROOM_DINING ROOM_FIREPIT_TERRACE_KITCHENETTE_ ",
+            name: "<span className='videoSpace'>BCS</span> <br /> $839'000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_ <br /> 25M2_ONE BEDROOM_ONE FULL BATHROOM_DINING ROOM_FIREPIT_TERRACE_KITCHENETTE_ ",
             image: bcs,
             videoIframe: "",
-            carruselDes: "<span className='videoSpace'>BCS</span> </br> $839'000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_ </br> 25M2_ONE BEDROOM_ONE FULL BATHROOM_DINING ROOM_FIREPIT_TERRACE_KITCHENETTE_ ",
+            carruselDes: "<span className='videoSpace'>BCS</span> <br /> $839'000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_ <br /> 25M2_ONE BEDROOM_ONE FULL BATHROOM_DINING ROOM_FIREPIT_TERRACE_KITCHENETTE_ ",
             carrusel: [
                 { img: bcs, slideSize: "large" },
                 { img: bcs2, imgMob: bcs2Mob, slideSize: "large" },
@@ -275,10 +275,10 @@ const About = () => {
         },
 
         {
-            name: "<span className='videoSpace'>SOTUTA</span> </br> $1'330'000 MXN_INSTALLED_PLUS TEXTILES_AND_FREIGHT_ </br> 56 M2_ONE BEDROOM_ONE FULL BATHROOM_LIVING ROOM_PLUNGE </br> POOL_TERRACE_ ",
+            name: "<span className='videoSpace'>SOTUTA</span> <br /> $1'330'000 MXN_INSTALLED_PLUS TEXTILES_AND_FREIGHT_ <br /> 56 M2_ONE BEDROOM_ONE FULL BATHROOM_LIVING ROOM_PLUNGE <br /> POOL_TERRACE_ ",
             image: sotuta,
             videoIframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ZBIRNCy5gOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> ',
-            carruselDes: "<span className='videoSpace'>SOTUTA</span> </br> $1'330'000 MXN_INSTALLED_PLUS TEXTILES_AND_FREIGHT_ </br> 56 M2_ONE BEDROOM_ONE FULL BATHROOM_LIVING ROOM_PLUNGE </br> POOL_TERRACE_ ",
+            carruselDes: "<span className='videoSpace'>SOTUTA</span> <br /> $1'330'000 MXN_INSTALLED_PLUS TEXTILES_AND_FREIGHT_ <br /> 56 M2_ONE BEDROOM_ONE FULL BATHROOM_LIVING ROOM_PLUNGE <br /> POOL_TERRACE_ ",
             carrusel: [
                 { img: sotuta, slideSize: "large" },
                 { img: sotuta2, imgMob: sotuta2Mob, slideSize: "large" },
@@ -300,10 +300,10 @@ const About = () => {
         },
 
         {
-            name: "<span className='videoSpace'>CXS</span> </br> $1'189'000 MXN_INSTALLED_PLUS TEXTILES_AND_FREIGHT_ </br> 15 M2_ONE BEDROOM_ONE BATHROOM_ ",
+            name: "<span className='videoSpace'>CXS</span> <br /> $1'189'000 MXN_INSTALLED_PLUS TEXTILES_AND_FREIGHT_ <br /> 15 M2_ONE BEDROOM_ONE BATHROOM_ ",
             image: cxs,
             videoIframe: "",
-            carruselDes: "<span className='videoSpace'>CXS</span> </br> $1'189'000 MXN_INSTALLED_PLUS TEXTILES_AND_FREIGHT_ </br> 15 M2_ONE BEDROOM_ONE BATHROOM_ ",
+            carruselDes: "<span className='videoSpace'>CXS</span> <br /> $1'189'000 MXN_INSTALLED_PLUS TEXTILES_AND_FREIGHT_ <br /> 15 M2_ONE BEDROOM_ONE BATHROOM_ ",
             carrusel: [
                 { img: cxs, slideSize: "large" },
                 { img: cxs2, imgMob: cxs2Mob, slideSize: "full" },
@@ -311,10 +311,10 @@ const About = () => {
         },
 
         {
-            name: "<span className='videoSpace'>LA PAZ</span> </br> $721'000 MXN_INSTALLED_PLUS TEXTILES_AND_FREIGHT_ </br> 19M2_ONE BEDROOM_ONE FULL BATHROOM_TERRACE_ ",
+            name: "<span className='videoSpace'>LA PAZ</span> <br /> $721'000 MXN_INSTALLED_PLUS TEXTILES_AND_FREIGHT_ <br /> 19M2_ONE BEDROOM_ONE FULL BATHROOM_TERRACE_ ",
             image: lapaz,
             videoIframe: "",
-            carruselDes: "<span className='videoSpace'>LA PAZ</span> </br> $721'000 MXN_INSTALLED_PLUS TEXTILES_AND_FREIGHT_ </br> 19M2_ONE BEDROOM_ONE FULL BATHROOM_TERRACE_ ",
+            carruselDes: "<span className='videoSpace'>LA PAZ</span> <br /> $721'000 MXN_INSTALLED_PLUS TEXTILES_AND_FREIGHT_ <br /> 19M2_ONE BEDROOM_ONE FULL BATHROOM_TERRACE_ ",
             carrusel: [
                 { img: lapaz, slideSize: "large" },
                 { img: lapaz2, imgMob: lapaz2Mob, slideSize: "small" },
@@ -327,10 +327,10 @@ const About = () => {
         },
 
         {
-            name: "<span className='videoSpace'>ARROYO</span> </br> $1'840'000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_ </br> 44M2_ONE BEDROOM_ONE FULL BATHROOM_LIVING ROOM_KITCHENETTE_ <br/> TERRACE_",
+            name: "<span className='videoSpace'>ARROYO</span> <br /> $1'840'000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_ <br /> 44M2_ONE BEDROOM_ONE FULL BATHROOM_LIVING ROOM_KITCHENETTE_ <br/> TERRACE_",
             image: arroyo,
             videoIframe: "",
-            carruselDes: "<span className='videoSpace'>ARROYO</span> </br> $1'840'000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_ </br> 44M2_ONE BEDROOM_ONE FULL BATHROOM_LIVING ROOM_KITCHENETTE_ <br/> TERRACE_",
+            carruselDes: "<span className='videoSpace'>ARROYO</span> <br /> $1'840'000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_ <br /> 44M2_ONE BEDROOM_ONE FULL BATHROOM_LIVING ROOM_KITCHENETTE_ <br/> TERRACE_",
             carrusel: [
                 { img: arroyo, slideSize: "large" },
                 { img: arroyo2, imgMob: arroyo2Mob, slideSize: "small" },
@@ -343,10 +343,10 @@ const About = () => {
         },
 
         {
-            name: "<span className='videoSpace'>ESCONDIDA</span> </br> $3'200'000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_ </br> 117M2_TWO BEDROOM_TWO FULL BATHROOM_LIVING ROOM_HOT TUB_TERRACE_KITCHEN_DINING </br> ROOM_FIREPIT_CHIMNEY_ ",
+            name: "<span className='videoSpace'>ESCONDIDA</span> <br /> $3'200'000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_ <br /> 117M2_TWO BEDROOM_TWO FULL BATHROOM_LIVING ROOM_HOT TUB_TERRACE_KITCHEN_DINING <br /> ROOM_FIREPIT_CHIMNEY_ ",
             image: escondida,
             videoIframe: "",
-            carruselDes: "<span className='videoSpace'>ESCONDIDA</span> </br> $3'200'000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_ </br> 117M2_TWO BEDROOM_TWO FULL BATHROOM_LIVING ROOM_HOT TUB_TERRACE_KITCHEN_DINING </br> ROOM_FIREPIT_CHIMNEY_ ",
+            carruselDes: "<span className='videoSpace'>ESCONDIDA</span> <br /> $3'200'000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_ <br /> 117M2_TWO BEDROOM_TWO FULL BATHROOM_LIVING ROOM_HOT TUB_TERRACE_KITCHEN_DINING <br /> ROOM_FIREPIT_CHIMNEY_ ",
             carrusel: [
                 { img: escondida, slideSize: "large" },
                 { img: escondida2, imgMob: escondida2Mob, slideSize: "large" },
