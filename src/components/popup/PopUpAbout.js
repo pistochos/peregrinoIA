@@ -16,7 +16,10 @@ const PopUpAbout = ({ title, content, img, lottie, elementsList, bigPointer, ind
     const close = useRef(null)
 
     useEffect(() => {
-        close.current.addEventListener('click', () => {
+        // Only run DOM manipulation on client side
+        if (typeof window === 'undefined') return;
+
+        close.current?.addEventListener('click', () => {
             popup.current.classList.remove("active")
         })
     }, [])
