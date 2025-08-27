@@ -203,6 +203,8 @@ const PlaceCard = ({ img, title, videoIframe, carrusel, carruselDes }) => {
                                                     :
                                                     <Image
                                                         src={item.img}
+                                                        width={2000}
+                                                        height={1040}
                                                         sizes="(max-width: 767px) 50vw, (min-width: 768px) 50vw"
                                                         className={`desktop-img ${hasMobileVersion ? 'has-mobile-version' : 'not-main'}`}
                                                         placeholder='blur'
@@ -217,6 +219,8 @@ const PlaceCard = ({ img, title, videoIframe, carrusel, carruselDes }) => {
                                                     hasMobileVersion && (
                                                         <Image
                                                             src={item.imgMob}
+                                                            width={2000}
+                                                            height={1040}
                                                             sizes="(max-width: 767px) 50vw, (min-width: 768px) 50vw"
                                                             className="mobile-img"
                                                             placeholder='blur'
