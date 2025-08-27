@@ -33,8 +33,10 @@ const PlaceCard = ({ img, title, videoIframe, carrusel, carruselDes }) => {
     }, [emblaApi])
 
     const [isMobile, setIsMobile] = useState(false);
+    const [isClient, setIsClient] = useState(false);
 
     useEffect(() => {
+        setIsClient(true);
         const updateIsMobile = () => {
             setIsMobile(window.innerWidth < 768);
         };
