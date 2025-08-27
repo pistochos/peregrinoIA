@@ -117,6 +117,9 @@ const PlaceCard = ({ img, title, videoIframe, carrusel, carruselDes }) => {
     }, [])
 
     useEffect(() => {
+        // Only run keyboard event handling on client side
+        if (typeof window === 'undefined') return;
+
         const handleKeyDown = (event) => {
             if (!emblaApi) return;
 
