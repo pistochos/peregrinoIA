@@ -359,7 +359,7 @@ const About = () => {
     // Rest of the component remains unchanged
     const about = [
         {
-            name: "Sostenibilidad Real: <br> Construcción Responsable",
+            name: "<p>REAL SUSTAINABILITY: RESPONSIBLE CONSTRUCTION</p>",
             preview: about1,
             content: "Refugios que respetan el medio ambiente",
             lottie: animation5,
