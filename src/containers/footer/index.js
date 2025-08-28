@@ -10,7 +10,7 @@ const Footer = () => {
 
             <div className="info-wrapper">
                 <div className="info-col footer-heading">
-                    <p>CONTACTO</p>
+                    <p>CONTACT</p>
                 </div>
 
                 <div className="info-col">
