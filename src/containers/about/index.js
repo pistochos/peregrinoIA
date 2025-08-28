@@ -300,10 +300,10 @@ const About = () => {
         },
 
         {
-            name: "<span className='videoSpace'>CXS</span> <br /> $1'189'000 MXN_INSTALLED_PLUS TEXTILES_AND_FREIGHT_ <br /> 15 M2_ONE BEDROOM_ONE BATHROOM_ ",
+            name: "<span className='videoSpace'>CXS</span><br />&nbsp;161 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;1 BATHROOM",
             image: cxs,
             videoIframe: "",
-            carruselDes: "<span className='videoSpace'>CXS</span> <br /> $1'189'000 MXN_INSTALLED_PLUS TEXTILES_AND_FREIGHT_ <br /> 15 M2_ONE BEDROOM_ONE BATHROOM_ ",
+            carruselDes: "<span className='videoSpace'>CXS</span><br />&nbsp;161 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;1 BATHROOM",
             carrusel: [
                 { img: cxs, slideSize: "large" },
                 { img: cxs2, imgMob: cxs2Mob, slideSize: "full" },
@@ -311,10 +311,10 @@ const About = () => {
         },
 
         {
-            name: "<span className='videoSpace'>LA PAZ</span> <br /> $721'000 MXN_INSTALLED_PLUS TEXTILES_AND_FREIGHT_ <br /> 19M2_ONE BEDROOM_ONE FULL BATHROOM_TERRACE_ ",
+            name: "<span className='videoSpace'>LA PAZ</span><br />&nbsp;205 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE",
             image: lapaz,
             videoIframe: "",
-            carruselDes: "<span className='videoSpace'>LA PAZ</span> <br /> $721'000 MXN_INSTALLED_PLUS TEXTILES_AND_FREIGHT_ <br /> 19M2_ONE BEDROOM_ONE FULL BATHROOM_TERRACE_ ",
+            carruselDes: "<span className='videoSpace'>LA PAZ</span><br />&nbsp;205 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE",
             carrusel: [
                 { img: lapaz, slideSize: "large" },
                 { img: lapaz2, imgMob: lapaz2Mob, slideSize: "small" },
@@ -327,10 +327,10 @@ const About = () => {
         },
 
         {
-            name: "<span className='videoSpace'>ARROYO</span> <br /> $1'840'000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_ <br /> 44M2_ONE BEDROOM_ONE FULL BATHROOM_LIVING ROOM_KITCHENETTE_ <br /> TERRACE_",
+            name: "<span className='videoSpace'>ARROYO</span><br />&nbsp;474 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIVING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KITCHENETTE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE<br />",
             image: arroyo,
             videoIframe: "",
-            carruselDes: "<span className='videoSpace'>ARROYO</span> <br /> $1'840'000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_ <br /> 44M2_ONE BEDROOM_ONE FULL BATHROOM_LIVING ROOM_KITCHENETTE_ <br /> TERRACE_",
+            carruselDes: "<span className='videoSpace'>ARROYO</span><br />&nbsp;474 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIVING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KITCHENETTE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE<br />",
             carrusel: [
                 { img: arroyo, slideSize: "large" },
                 { img: arroyo2, imgMob: arroyo2Mob, slideSize: "small" },
@@ -343,10 +343,10 @@ const About = () => {
         },
 
         {
-            name: "<span className='videoSpace'>ESCONDIDA</span> <br /> $3'200'000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_ <br /> 117M2_TWO BEDROOM_TWO FULL BATHROOM_LIVING ROOM_HOT TUB_TERRACE_KITCHEN_DINING <br /> ROOM_FIREPIT_CHIMNEY_ ",
+            name: "<span className='videoSpace'>ESCONDIDA</span><br />1260 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIVING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOT TUB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KITCHEN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DINING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />FIREPIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHIMNEY<br />",
             image: escondida,
             videoIframe: "",
-            carruselDes: "<span className='videoSpace'>ESCONDIDA</span> <br /> $3'200'000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_ <br /> 117M2_TWO BEDROOM_TWO FULL BATHROOM_LIVING ROOM_HOT TUB_TERRACE_KITCHEN_DINING <br /> ROOM_FIREPIT_CHIMNEY_ ",
+            carruselDes: "<span className='videoSpace'>ESCONDIDA</span><br />1260 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIVING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOT TUB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KITCHEN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DINING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />FIREPIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHIMNEY<br />",
             carrusel: [
                 { img: escondida, slideSize: "large" },
                 { img: escondida2, imgMob: escondida2Mob, slideSize: "large" },
