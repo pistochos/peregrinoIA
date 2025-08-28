@@ -236,10 +236,10 @@ const About = () => {
 
 
         {
-            name: "<span className='videoSpace'>P FRAME</span> <br /> $1'400'000 MXN_INSTALLED_PLUS TEXTILES_AND_FREIGHT_ <br /> 40M2_ONE BEDROOM_ONE FULL BATHROOM_HOT TUB_TERRACE_ <br /> FIREPIT_CHIMNEY_ ",
+            name: "<span className='videoSpace'>P FRAME</span><br />40 M2, 1 BEDROOM, 1 FULL BATHROOM, HOT TUB, TERRACE, FIREPIT, CHIMNEY",
             image: pframe,
             videoIframe: "",
-            carruselDes: "<span className='videoSpace'>P FRAME</span> <br /> $1'400'000 MXN_INSTALLED_PLUS TEXTILES_AND_FREIGHT_ <br /> 40M2_ONE BEDROOM_ONE FULL BATHROOM_HOT TUB_TERRACE_ <br /> FIREPIT_CHIMNEY_ ",
+            carruselDes: "<span className='videoSpace'>P FRAME</span><br />40 M2, 1 BEDROOM, 1 FULL BATHROOM, HOT TUB, TERRACE, FIREPIT, CHIMNEY",
             carrusel: [
                 { img: pframe, slideSize: "large" },
                 { img: pframe2, imgMob: pframe2Mob, slideSize: "large" },
