@@ -226,7 +226,7 @@ const About = () => {
             carruselDes: "<span className='videoSpace'>C FRAME</span><br />",
             carrusel: [
                 { img: "https://cdn.builder.io/api/v1/image/assets%2F5e97045c58594b208962039caa6225f5%2Fe0557ff4b6324c439dfd88c5a99ae45a", slideSize: "large" },
-                { img: "https://cdn.builder.io/api/v1/image/assets%2F5e97045c58594b208962039caa6225f5%2F4517c1a241da4d9fa23d71967c58fa0b", slideSize: "large" },
+                { img: "https://cdn.builder.io/api/v1/image/assets%2F5e97045c58594b208962039caa6225f5%2F5d13ee5ced73423c8605e6ce1e640347", slideSize: "large" },
                 { img: "https://cdn.builder.io/api/v1/image/assets%2F5e97045c58594b208962039caa6225f5%2Fa8620369dc4e408689c5655b24e2dd05", imgMob: cframe2Mob, slideSize: "large" },
                 { img: "https://cdn.builder.io/api/v1/image/assets%2F5e97045c58594b208962039caa6225f5%2Ffd54a67efb964b0f9fdc8c3fd84db827", imgMob: cframe3Mob, slideSize: "large" },
                 { img: cframe4, imgMob: cframe4Mob, slideSize: "large" },
