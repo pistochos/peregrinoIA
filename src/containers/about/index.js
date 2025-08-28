@@ -223,7 +223,7 @@ const About = () => {
             name: "<span className='videoSpace'>C FRAME</span><br /><p>20 M2 // ONE BEDROOM // ONE FULL BATHROOM // LIVING ROOM // KITCHENETTE // INDOOR/OUTDOOR SHOWER -- TOKALI2</p>",
             image: "https://cdn.builder.io/api/v1/image/assets%2F5e97045c58594b208962039caa6225f5%2F5d13ee5ced73423c8605e6ce1e640347",
             videoIframe: "", // No video info
-            carruselDes: "<span className='videoSpace'>C FRAME</span><br /><p>20 M2 // ONE BEDROOM // ONE FULL BATHROOM // LIVING ROOM // KITCHENETTE // INDOOR/OUTDOOR SHOWER</p>",
+            carruselDes: "<span className='videoSpace'>C FRAME</span><br /><p>20 M2 // ONE BEDROOM // ONE FULL BATHROOM // LIVING ROOM // KITCHENETTE // INDOOR/OUTDOOR SHOWER -- TOKALI2</p>",
             carrusel: [
                 { img: cframe, slideSize: "large" },
                 { img: cframe1, slideSize: "large" },
