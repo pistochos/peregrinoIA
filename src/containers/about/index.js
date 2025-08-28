@@ -236,10 +236,10 @@ const About = () => {
 
 
         {
-            name: "<span className='videoSpace'>P FRAME</span><br />430 SQFT&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOT TUB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIRE PIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHIMNEY",
+            name: "<span className='videoSpace'>P FRAME</span><br /><br />430 SQFT&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOT TUB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIRE PIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHIMNEY",
             image: pframe,
             videoIframe: "",
-            carruselDes: "<span className='videoSpace'>P FRAME</span><br />430 SQFT&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOT TUB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIRE PIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHIMNEY",
+            carruselDes: "<span className='videoSpace'>P FRAME</span><br /><br />430 SQFT&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOT TUB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIRE PIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHIMNEY",
             carrusel: [
                 { img: pframe, slideSize: "large" },
                 { img: pframe2, imgMob: pframe2Mob, slideSize: "large" },
@@ -263,10 +263,10 @@ const About = () => {
         },
 
         {
-            name: "<span className='videoSpace'>BCS</span><br />&nbsp;270 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DINING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIREPIT_TERRACE_KITCHENETTE_",
+            name: "<span className='videoSpace'>BCS</span><br /><br />270 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DINING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIREPIT_TERRACE_KITCHENETTE_",
             image: bcs,
             videoIframe: "",
-            carruselDes: "<span className='videoSpace'>BCS</span><br />&nbsp;270 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DINING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIREPIT_TERRACE_KITCHENETTE_",
+            carruselDes: "<span className='videoSpace'>BCS</span><br /><br />270 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DINING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIREPIT_TERRACE_KITCHENETTE_",
             carrusel: [
                 { img: bcs, slideSize: "large" },
                 { img: bcs2, imgMob: bcs2Mob, slideSize: "large" },
@@ -275,10 +275,10 @@ const About = () => {
         },
 
         {
-            name: "<span className='videoSpace'>SOTUTA</span><br />&nbsp;603 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIVING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PLUNGE POOL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE<br />",
+            name: "<span className='videoSpace'>SOTUTA</span><br /><br />603 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIVING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PLUNGE POOL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE<br />",
             image: sotuta,
             videoIframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ZBIRNCy5gOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> ',
-            carruselDes: "<span className='videoSpace'>SOTUTA</span><br />&nbsp;603 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIVING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PLUNGE POOL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE<br />",
+            carruselDes: "<span className='videoSpace'>SOTUTA</span><br /><br />603 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIVING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PLUNGE POOL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE<br />",
             carrusel: [
                 { img: sotuta, slideSize: "large" },
                 { img: sotuta2, imgMob: sotuta2Mob, slideSize: "large" },
@@ -300,10 +300,10 @@ const About = () => {
         },
 
         {
-            name: "<span className='videoSpace'>CXS</span><br />&nbsp;161 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;1 BATHROOM",
+            name: "<span className='videoSpace'>CXS</span><br /><br />161 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;1 BATHROOM",
             image: cxs,
             videoIframe: "",
-            carruselDes: "<span className='videoSpace'>CXS</span><br />&nbsp;161 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;1 BATHROOM",
+            carruselDes: "<span className='videoSpace'>CXS</span><br /><br />161 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;1 BATHROOM",
             carrusel: [
                 { img: cxs, slideSize: "large" },
                 { img: cxs2, imgMob: cxs2Mob, slideSize: "full" },
@@ -311,10 +311,10 @@ const About = () => {
         },
 
         {
-            name: "<span className='videoSpace'>LA PAZ</span><br />&nbsp;205 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE",
+            name: "<span className='videoSpace'>LA PAZ</span><br /><br />205 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE",
             image: lapaz,
             videoIframe: "",
-            carruselDes: "<span className='videoSpace'>LA PAZ</span><br />&nbsp;205 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE",
+            carruselDes: "<span className='videoSpace'>LA PAZ</span><br /><br />205 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE",
             carrusel: [
                 { img: lapaz, slideSize: "large" },
                 { img: lapaz2, imgMob: lapaz2Mob, slideSize: "small" },
@@ -327,10 +327,10 @@ const About = () => {
         },
 
         {
-            name: "<span className='videoSpace'>ARROYO</span><br />&nbsp;474 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIVING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KITCHENETTE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE<br />",
+            name: "<span className='videoSpace'>ARROYO</span><br /><br />474 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIVING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KITCHENETTE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE<br />",
             image: arroyo,
             videoIframe: "",
-            carruselDes: "<span className='videoSpace'>ARROYO</span><br />&nbsp;474 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIVING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KITCHENETTE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE<br />",
+            carruselDes: "<span className='videoSpace'>ARROYO</span><br /><br />474 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIVING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KITCHENETTE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE<br />",
             carrusel: [
                 { img: arroyo, slideSize: "large" },
                 { img: arroyo2, imgMob: arroyo2Mob, slideSize: "small" },
@@ -343,10 +343,10 @@ const About = () => {
         },
 
         {
-            name: "<span className='videoSpace'>ESCONDIDA</span><br />1260 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIVING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOT TUB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KITCHEN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DINING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />FIREPIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHIMNEY<br />",
+            name: "<span className='videoSpace'>ESCONDIDA</span><br /><br />1260 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIVING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOT TUB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KITCHEN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DINING ROOM<br /><br />FIREPIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHIMNEY<br />",
             image: escondida,
             videoIframe: "",
-            carruselDes: "<span className='videoSpace'>ESCONDIDA</span><br />1260 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIVING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOT TUB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KITCHEN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DINING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />FIREPIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHIMNEY<br />",
+            carruselDes: "<span className='videoSpace'>ESCONDIDA</span><br /><br />1260 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIVING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOT TUB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KITCHEN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DINING ROOM<br /><br />FIREPIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHIMNEY<br />",
             carrusel: [
                 { img: escondida, slideSize: "large" },
                 { img: escondida2, imgMob: escondida2Mob, slideSize: "large" },
