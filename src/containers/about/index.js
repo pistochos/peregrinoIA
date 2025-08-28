@@ -386,7 +386,7 @@ const About = () => {
             ]
         },
         {
-            name: "De 0 a 100: <br> un solo proveedor",
+            name: "0 - 100: ONE SUPPLIER",
             preview: about4,
             content: "Despreocúpate de los detalles",
             img: about4,
@@ -401,7 +401,7 @@ const About = () => {
             ]
         },
         {
-            name: "Diseño Modular: <br> Flexibilidad  y adaptación",
+            name: "MODULAR DESIGN: FLEXIBILITY AND ADAPTABILITY",
             preview: about2,
             content: "Proyectos que responden a necesidades especiales",
             lottie: animation3,
@@ -414,14 +414,14 @@ const About = () => {
             ]
         },
         {
-            name: "Diseño adaptable: <br> el sitio como pauta",
+            name: "RESPECTFUL DESIGN: NATURE AT HEART",
             preview: about5,
             content: "Diseño a partir del sitio",
             lottie: animation2,
             img: about5,
         },
         {
-            name: "Viabilidad DE PROYECTO: <br> Inversión Segura",
+            name: "PROJECT FEASIBILITY: SAFE INVESTMENT",
             preview: about6,
             content: "An��lisis de viabilidad económica",
             lottie: animation6,
@@ -437,7 +437,7 @@ const About = () => {
             ],
         },
         {
-            name: "TrÁmites inteligentes: <br> simplicidad en permisos",
+            name: "EFFICIENT PAPERWORK: HUSTLE-FREE PERMITS",
             preview: about7,
             content: "Menos papeleo",
             lottie: animation7,
