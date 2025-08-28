@@ -7,10 +7,11 @@ const Navbar = () => {
     return (
         <div className="navbar-wrapper">
             <div className="nav-item nav-left">
-                <a href="mailto:info@peregrinocompany.com" target="_blank" rel="noopener noreferrer">info@peregrinocompany.com</a>
+                <a href="mailto:info@peregrinocompany.com" target="_blank" rel="noopener noreferrer"><p>info@peregrinocompany.com</p></a>
             </div>
 
             <div className="nav-item">
+                <a href="https://catalogo-peregrino.lovable.app/" target="_blank" rel="noopener noreferrer"><p>Go to catalog</p></a>
                 <a href="https://www.jotform.com/es/243035503869055#preview" target="_blank" rel="noopener noreferrer">REALIZAR PEDIDO</a>
             </div>
 
