@@ -372,7 +372,7 @@ const About = () => {
             ]
         },
         {
-            name: "PREFABRICACI��N: <br> EFICIENCIA INTEGRAL",
+            name: "PREFAB: ALL ROUND EFFICIENCY",
             preview: about3,
             content: "Plug and play",
             lottie: animation4,
