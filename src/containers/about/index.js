@@ -248,10 +248,10 @@ const About = () => {
         },
 
         {
-            name: "<span className='videoSpace'>SAUNA</span> <br /> $275'000 MXN_INSTALLED_PLUS FREIGHT_ <br /> 9M2_5 PAX_ ",
+            name: "<span className='videoSpace'>SAUNA</span><p><br />97 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5 PEOPLE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;43 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 PEOPLE</p>",
             image: sauna,
             videoIframe: "",
-            carruselDes: "<span className='videoSpace'>SAUNA</span> <br /> $275'000 MXN_INSTALLED_PLUS FREIGHT_ <br /> 9M2_5 PAX_ ",
+            carruselDes: "<span className='videoSpace'>SAUNA</span><p><br />97 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5 PEOPLE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;43 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 PEOPLE</p>",
             carrusel: [
                 { img: sauna, slideSize: "large" },
                 { img: sauna2, imgMob: sauna2Mob, slideSize: "small" },
@@ -263,10 +263,10 @@ const About = () => {
         },
 
         {
-            name: "<span className='videoSpace'>BCS</span> <br /> $839'000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_ <br /> 25M2_ONE BEDROOM_ONE FULL BATHROOM_DINING ROOM_FIREPIT_TERRACE_KITCHENETTE_ ",
+            name: "<span className='videoSpace'>BCS</span><br />&nbsp;270 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DINING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIREPIT_TERRACE_KITCHENETTE_",
             image: bcs,
             videoIframe: "",
-            carruselDes: "<span className='videoSpace'>BCS</span> <br /> $839'000 MXN_INSTALLED_PLUS TEXTILES_MINIBAR_AND_FREIGHT_ <br /> 25M2_ONE BEDROOM_ONE FULL BATHROOM_DINING ROOM_FIREPIT_TERRACE_KITCHENETTE_ ",
+            carruselDes: "<span className='videoSpace'>BCS</span><br />&nbsp;270 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DINING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIREPIT_TERRACE_KITCHENETTE_",
             carrusel: [
                 { img: bcs, slideSize: "large" },
                 { img: bcs2, imgMob: bcs2Mob, slideSize: "large" },
@@ -275,10 +275,10 @@ const About = () => {
         },
 
         {
-            name: "<span className='videoSpace'>SOTUTA</span> <br /> $1'330'000 MXN_INSTALLED_PLUS TEXTILES_AND_FREIGHT_ <br /> 56 M2_ONE BEDROOM_ONE FULL BATHROOM_LIVING ROOM_PLUNGE <br /> POOL_TERRACE_ ",
+            name: "<span className='videoSpace'>SOTUTA</span><br />&nbsp;603 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIVING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PLUNGE POOL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE<br />",
             image: sotuta,
             videoIframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ZBIRNCy5gOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> ',
-            carruselDes: "<span className='videoSpace'>SOTUTA</span> <br /> $1'330'000 MXN_INSTALLED_PLUS TEXTILES_AND_FREIGHT_ <br /> 56 M2_ONE BEDROOM_ONE FULL BATHROOM_LIVING ROOM_PLUNGE <br /> POOL_TERRACE_ ",
+            carruselDes: "<span className='videoSpace'>SOTUTA</span><br />&nbsp;603 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIVING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PLUNGE POOL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TERRACE<br />",
             carrusel: [
                 { img: sotuta, slideSize: "large" },
                 { img: sotuta2, imgMob: sotuta2Mob, slideSize: "large" },
