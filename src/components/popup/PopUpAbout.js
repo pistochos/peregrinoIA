@@ -31,7 +31,7 @@ const PopUpAbout = ({ title, content, img, lottie, elementsList, bigPointer, ind
 
                 <div className="popup-close-wrapper">
                     <button className="popup-close" ref={close}>
-                        <span>Cerrar</span>
+                        <p>CLOSE</p>
                         <Image src={closeIcon} alt="Close Pop Up" />
                     </button>
                 </div>
