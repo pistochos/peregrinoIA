@@ -202,10 +202,10 @@ const About = () => {
 
     const places = [
         {
-            name: "<span className='videoSpace'>O Frame</span><br />183 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIVING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KITCHENETTE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DAY BED",
+            name: "<span className='videoSpace'>O Frame</span><br /><br />183 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIVING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KITCHENETTE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DAY BED",
             image: oframe,
             videoIframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/_BATAV4wqNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> ',
-            carruselDes: "<span className='videoSpace'>O Frame</span><br />183 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIVING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KITCHENETTE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DAY BED",
+            carruselDes: "<span className='videoSpace'>O Frame</span><br /><br />183 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIVING ROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KITCHENETTE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DAY BED",
             carrusel: [
                 { img: oframe, slideSize: "large" },
                 { img: oframe2, imgMob: oframe2Mob, slideSize: "small" },
@@ -220,10 +220,10 @@ const About = () => {
         },
 
         {
-            name: "<span className='videoSpace'>C FRAME</span><br />215 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIVING ROOM&nbsp;&nbsp;&nbsp;&nbsp;KITCHENETTE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INDOOR/OUTDOOR SHOWER",
+            name: "<span className='videoSpace'>C FRAME</span><br /><br />215 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIVING ROOM&nbsp;&nbsp;&nbsp;&nbsp;KITCHENETTE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INDOOR/OUTDOOR SHOWER",
             image: "https://cdn.builder.io/api/v1/image/assets%2F5e97045c58594b208962039caa6225f5%2F5d13ee5ced73423c8605e6ce1e640347",
             videoIframe: "", // No video info
-            carruselDes: "<span className='videoSpace'>C FRAME</span><br />215 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIVING ROOM&nbsp;&nbsp;&nbsp;&nbsp;KITCHENETTE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INDOOR/OUTDOOR SHOWER",
+            carruselDes: "<span className='videoSpace'>C FRAME</span><br /><br />215 SQFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 BEDROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 FULL BATHROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIVING ROOM&nbsp;&nbsp;&nbsp;&nbsp;KITCHENETTE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INDOOR/OUTDOOR SHOWER",
             carrusel: [
                 { img: cframe, slideSize: "large" },
                 { img: cframe1, slideSize: "large" },
