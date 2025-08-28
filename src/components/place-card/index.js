@@ -163,7 +163,7 @@ const PlaceCard = ({ img, title, videoIframe, carrusel, carruselDes }) => {
                     <div className="card-content">
                         <div dangerouslySetInnerHTML={{ __html: title }}></div>
                         {videoIframe && (
-                            <button ref={triggerVideo} style={{ margin: "29px 0 0 -1px" }}>
+                            <button ref={triggerVideo} className="video-button">
                                 <Image src={plus} alt="view video" width={16} height={16} />
                                 <div>VIDEO</div>
                             </button>
