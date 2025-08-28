@@ -27,7 +27,7 @@ const Footer = () => {
                 </div>
 
                 <div className="info-col">
-                    <p>PEREGRINO: STRESS FREE DWELLING</p>
+                    <p>PEREGRINO: STRESS-FREE DWELLING</p>
 
                     {/* <iframe style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/track/3Hb2N2FmKAPmDUI6qUQl8Q?utm_source=generator" width="100%" height="152" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> */}
                     {/* <iframe style={{ borderRadius: "12px" }} src="https://open.spotify.com/playlist/6Ipb7S96bM1mgA71d6BGj2?si=9HH6D49JR4OSn_u6Zk3OTQ " width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> */}
