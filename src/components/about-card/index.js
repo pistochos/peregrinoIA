@@ -32,7 +32,7 @@ const AboutCard = ({ preview, title, shortContent, index }) => {
 
                 <button ref={trigger}>
                     <Image src={plus} alt="view more" />
-                    <span>Ver más</span>
+                    <p>MORE</p>
                 </button>
             </div>
         </div>
